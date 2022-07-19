@@ -44,6 +44,7 @@ class MainKtTest {
         val res = calcCommission(typeCard, prevSum, sum)
 
         // 3 - assert
-        assertEquals(0, res)
+        //assertEquals(0, res)
+        assertEquals(1, res)
     }
 }
